@@ -1,22 +1,17 @@
-<div id="<%= dom_id user %>">
-  <p>
-    <strong>Name:</strong>
-    <%= user.name %>
-  </p>
-
-  <p>
-    <strong>Email:</strong>
-    <%= user.email %>
-  </p>
-
-  <p>
-    <strong>Phone:</strong>
-    <%= user.phone %>
-  </p>
-
-  <p>
-    <strong>Cpf:</strong>
-    <%= user.cpf %>
-  </p>
-
+<div class="card">
+  <h4 class="card-header"><strong>Name:</strong> <%= user.name %></h4>
+  <div class="card-body">
+    <p class="card-text mt-0">
+      <strong>Email:</strong>
+      <%= user.email %></p>
+    </p>
+    <p class="card-text">
+      <strong>Phone:</strong>
+      <%= user.phone %></p>
+    </p>
+    <p class="card-text">
+      <strong>CPF:</strong>
+      <%= user.cpf %></p>
+    </p>
+  </div>
 </div>
