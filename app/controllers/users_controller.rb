@@ -3,7 +3,11 @@ class UsersController < ApplicationController
 
   # GET /users or /users.json
   def index
-    @users = User.all
+    if params[:query] == "" || params[:query].nil?
+      @users = User.all
+    elsif params[:query]
+      @users = User.search_by_all_fields(params[:query])
+    end
   end
 
   # GET /users/1 or /users/1.json
