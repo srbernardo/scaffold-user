@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
   database: demo_festalab_production
   username: demo_festalab
   password: <%= ENV["DEMO_FESTALAB_DATABASE_PASSWORD"] %>
