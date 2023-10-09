@@ -8,6 +8,11 @@ class UsersController < ApplicationController
     elsif params[:query]
       @users = User.search_by_all_fields(params[:query])
     end
+
+    respond_to do |format|
+      format.html
+      format.text { render partial: "users/list", formats: [:html] }
+    end
   end
 
   # GET /users/1 or /users/1.json

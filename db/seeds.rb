@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+User.create(name: "Antonio", email: "antonio@email.com", phone: "(82) 98877-6655", cpf: "123.456.789-00")
+User.create(name: "Maria", email: "maria@email.com", phone: "(82) 99977-6655", cpf: "123.456.789-00")
+User.create(name: "Jose", email: "jose@email.com", phone: "(82) 91177-6655", cpf: "123.456.789-00")
+User.create(name: "Joana", email: "joana@email.com", phone: "(82) 92277-6655", cpf: "123.456.789-00")
+User.create(name: "Arthur", email: "arthur@email.com", phone: "(82) 93377-6655", cpf: "123.456.789-00")
+User.create(name: "Clara", email: "clara@email.com", phone: "(82) 94477-6655", cpf: "123.456.789-00")
+User.create(name: "Bruno", email: "bruno@email.com", phone: "(82) 92177-6655", cpf: "123.456.789-00")
+User.create(name: "Vlad", email: "vlad@email.com", phone: "(82) 98277-6655", cpf: "123.456.789-00")
+User.create(name: "Trevor", email: "trevor@email.com", phone: "(82) 95777-6655", cpf: "123.456.789-00")
+User.create(name: "Lara", email: "lara@email.com", phone: "(82) 9157-6655", cpf: "123.456.789-00")
