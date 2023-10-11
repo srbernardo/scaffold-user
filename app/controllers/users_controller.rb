@@ -5,8 +5,10 @@ class UsersController < ApplicationController
   def index
     if params[:query] == "" || params[:query].nil?
       @users = User.all
+      @message = "Add a new user" if @users.empty?
     elsif params[:query]
       @users = User.search_by_all_fields(params[:query])
+      @message = "No data found for '#{params[:query]}'" if @users.empty?
     end
 
     respond_to do |format|
