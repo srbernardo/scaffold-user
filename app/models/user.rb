@@ -11,7 +11,8 @@ class User < ApplicationRecord
       tsearch: { prefix: true }
     }
 
-  validates :email, presence: true, format: { with: email_regex}
-  validates :cpf, presence: true, format: { with: cpf_regex, message: "is invalid, Ex: 123.456.789-00" }
-  validates :phone, presence: true, format: { with: phone_regex, message: "is invalid, Ex: (00) 0000-0000"  }
+  validates :name, presence: true
+  validates :email, presence: true, format: { with: email_regex}, uniqueness: true
+  validates :cpf, presence: true, format: { with: cpf_regex, message: "is invalid, Ex: 123.456.789-00" }, uniqueness: true
+  validates :phone, presence: true, format: { with: phone_regex, message: "is invalid, Ex: (00) 0000-0000"  }, uniqueness: true
 end
