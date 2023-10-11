@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Pequeno projeto feito para exercitar a prática de CRUD de usuarios, parecido com uma lista de contatos, com o Rails 7. Nele eu adicionei o esbuild no lugar do Impotmap, pois em produção o Importmap não deixava funcionar o js da pagina. Adicionei tambem o bootstrap 5, um tema dark/light automático e uma barra de pesquisa instantânea por meio do stimulus. Finalizando o projeto fiz o deploy do mesmo utilizando o Render.
+Pequeno projeto feito para exercitar a prática de CRUD de usuarios, parecido com uma lista de contatos, com o Rails 7. Nele eu adicionei o esbuild no lugar do Impotmap, pois em produção o Importmap não deixava funcionar o js da pagina. Adicionei tambem o bootstrap 5, um tema dark/light automático e uma barra de pesquisa instantânea por meio do stimulus. Finalizando o projeto fiz o deploy do mesmo utilizando o Render e adicionar testes unitários ao controller e ao model.
 
 ## Funcionalidades
 
@@ -19,6 +19,7 @@ Pequeno projeto feito para exercitar a prática de CRUD de usuarios, parecido co
 - Stimulus
 - Bootstrap
 - Render
+- Minitest
 
 ## Contato
 
