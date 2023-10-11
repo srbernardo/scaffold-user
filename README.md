@@ -1,24 +1,30 @@
-# README
+# Scaffold user
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Descrição do Projeto
 
-Things you may want to cover:
+Pequeno projeto feito para exercitar a prática de CRUD de usuarios, parecido com uma lista de contatos, com o Rails 7. Nele eu adicionei o esbuild no lugar do Impotmap, pois em produção o Importmap não deixava funcionar o js da pagina. Adicionei tambem o bootstrap 5, um tema dark/light automático e uma barra de pesquisa instantânea por meio do stimulus. Finalizando o projeto fiz o deploy do mesmo utilizando o Render.
 
-* Ruby version
+## Funcionalidades
 
-* System dependencies
+- **CRUD**
+  
+- **Tema dark/light automático**
 
-* Configuration
+- **Pesquisa instantânea**:
 
-* Database creation
+## Tecnologias Utilizadas
 
-* Database initialization
+- Ruby on Rails 7
+- PostgreSQL
+- Stimulus
+- Bootstrap
+- Render
 
-* How to run the test suite
+## Contato
 
-* Services (job queues, cache servers, search engines, etc.)
+Se você tiver alguma dúvida ou quiser entrar em contato https://www.linkedin.com/in/bernardo-brotelli/
 
-* Deployment instructions
 
-* ...
+
+
+
