@@ -9,9 +9,6 @@ gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use pg as the database for Active Record
-gem "pg", "~> 1.1"
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -54,7 +51,7 @@ gem "sassc-rails"
 
 gem "simple_form"
 
-gem "pg_search"
+gem "sqlite3", "~> 1.4"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
