@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+set -e
+
+if [ -z "${LD_PRELOAD+x}" ]; then
+  LD_PRELOAD=$(find /usr/lib -name libjemalloc.so.2 -print -quit)
+  export LD_PRELOAD
+fi
+
+rails db:prepare
+
+exec rails server -p 3000 -b 0.0.0.0
+

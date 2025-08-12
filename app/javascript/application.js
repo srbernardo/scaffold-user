@@ -3,5 +3,3 @@ import "@hotwired/turbo-rails"
 import "./controllers"
 import "@popperjs/core"
 import "bootstrap"
-
-console.log("Test de import map");
